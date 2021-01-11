@@ -34,9 +34,9 @@ class Core
         $this->currentController = new $this->currentController;
 
         // CHECK FOR SECOND PART OF URL
-        if (isset($url[1])) {
+        if(isset($url[1])) {
             // check to see if method exists in controller
-            if (method_exists($this->currentController, $url[1])) {
+            if(method_exists($this->currentController, $url[1])) {
                 $this->currentMethod = $url[1];
                 //unset 1 index
                 unset($url[1]);

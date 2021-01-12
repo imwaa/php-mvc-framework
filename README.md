@@ -1,3 +1,7 @@
 <h1> MY PHP MVC FRAMEWORK </h1>
 
-<p>Don't forget to change the "config.php" file. You can find it in /app/config/config.php</p>
+<h2> Don't forget to change the values for:</h2>
+<li>
+    <ul>config.php - app/config/config.php</ul>
+    <ul>.htaccess - public/.htaccess</ul>
+</li>
